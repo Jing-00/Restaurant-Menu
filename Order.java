@@ -85,7 +85,7 @@ public class Order extends Menu implements OrderClean {
 				menuChoice1 = in2.nextLine();
 				String s = con.searchInList(menuChoice1);
 				while (s.equals(null)) {
-					System.out.println("Enter the food lised in the table.");
+					System.out.println("Enter the food listed in the table.");
 					System.out.print("Enter the name of the item that you would like to buy: ");
 					in2.nextLine();
 				}
